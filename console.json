@@ -1,0 +1,112 @@
+Object { coord: {…}, weather: (1) […], base: "stations", main: {…}, visibility: 10000, wind: {…}, clouds: {…}, dt: 1697508897, sys: {…}, timezone: 28800, … }
+​
+base: "stations"
+​
+clouds: Object { all: 33 }
+​​
+all: 33
+​​
+<prototype>: Object { … }
+​
+cod: 200
+​
+coord: Object { lon: 121.3258, lat: 14.0669 }
+​​
+lat: 14.0669
+​​
+lon: 121.3258
+​​
+<prototype>: Object { … }
+​
+dt: 1697508897
+​
+id: 1688830
+​
+main: Object { temp: 303.1, feels_like: 307.14, temp_min: 303.1, … }
+​​
+feels_like: 307.14
+​​
+grnd_level: 1001
+​​
+humidity: 66
+​​
+pressure: 1013
+​​
+sea_level: 1013
+​​
+temp: 303.1
+​​
+temp_max: 303.1
+​​
+temp_min: 303.1
+​​
+<prototype>: Object { … }
+​
+name: "San Pablo City"
+​
+sys: Object { type: 2, id: 2011004, country: "PH", … }
+​​
+country: "PH"
+​​
+id: 2011004
+​​
+sunrise: 1697492740
+​​
+sunset: 1697535263
+​​
+type: 2
+​​
+<prototype>: Object { … }
+​
+timezone: 28800
+​
+visibility: 10000
+​
+weather: Array [ {…} ]
+​​
+0: Object { id: 802, main: "Clouds", description: "scattered clouds", … }
+​​
+length: 1
+​​
+<prototype>: Array []
+​
+wind: Object { speed: 2.36, deg: 63, gust: 4.05 }
+​​
+deg: 63
+​​
+gust: 4.05
+​​
+speed: 2.36
+​​
+<prototype>: Object { … }
+​
+<prototype>: Object { … }
+​​
+__defineGetter__: function __defineGetter__()
+​​
+__defineSetter__: function __defineSetter__()
+​​
+__lookupGetter__: function __lookupGetter__()
+​​
+__lookupSetter__: function __lookupSetter__()
+​​
+__proto__: 
+​​
+constructor: function Object()
+​​
+hasOwnProperty: function hasOwnProperty()
+​​
+isPrototypeOf: function isPrototypeOf()
+​​
+propertyIsEnumerable: function propertyIsEnumerable()
+​​
+toLocaleString: function toLocaleString()
+​​
+toString: function toString()
+​​
+valueOf: function valueOf()
+​​
+<get __proto__()>: function __proto__()
+​​
+<set __proto__()>: function __proto__()
+App.js:21

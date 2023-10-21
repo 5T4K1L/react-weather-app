@@ -1,13 +1,207 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gugi&family=IM+Fell+Double+Pica+SC&family=Itim&family=JetBrains+Mono:wght@500&family=Josefin+Sans&family=Jura:wght@300&family=Pixelify+Sans&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background: #0B131E;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.search-bar {
+    margin: 25px 39px;
+}
+
+.search-bar input {
+    background-color: #202B3B;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 795px;
+    height: 63px;
+    border-radius: 20px;
+    padding-left: 49px;
+}
+
+.right-settings img {
+    position: absolute;
+    height: 35.2px;
+    right: 50px;
+    top: 38px;
+    rotate: 120deg;
+}
+
+.no-city {
+    color: #FF0000;
+    opacity: 70%;
+    position: absolute;
+    top: 97px;
+    left: 88px;
+}
+
+.main-datas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cdw {
+    color: white;
+    margin-left: 88px;
+    margin-top: 51px;
+}
+
+.cdw h1 {
+    font-size: 50px;
+}
+
+.cdw h3 {
+    font-size: 40px;
+    color: #FF9900;
+}
+
+.cdw h5 {
+    font-size: 25px;
+    color: #FFCD6C;
+}
+
+.air-conditions {
+    margin: 30px 39px;
+    background-color: #202B3B;
+    width: 795px;
+    height: 325px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.air-conditions h1 {
+    font-weight: bolder;
+    font-size: 15px;
+    position: absolute;
+    top: 52px;
+    left: 49px;
+    color: #979797;
+}
+
+ul li:nth-child(1) {
+    color: #979797;
+    font-weight: bolder;
+}
+
+.real-feel img {
+    height: 30px;
+    position: relative;
+    top: 116px;
+    left: 63px;
+}
+
+.real-feel .content {
+    position: relative;
+    top: 79px;
+    left: 57px;
+}
+
+ul {
+    list-style: none;
+}
+
+.real-feel li:nth-child(1) {
+    font-weight: bolder;
+}
+
+.real-feel li:nth-child(2) {
+    color: #FF9900;
+}
+
+.wind {
+    position: relative;
+
+    position: relative;
+    top: 20px;
+}
+
+.wind img {
+    height: 30px;
+    position: relative;
+    top: 116px;
+    left: 56px;
+}
+
+.wind .content {
+    position: relative;
+    top: 79px;
+    left: 56px;
+}
+
+.wind li:nth-child(2) {
+    color: #009BBE;
+}
+
+.chance-rain img {
+    height: 30px;
+    position: absolute;
+    top: 116px;
+    left: 293px;
+}
+
+.chance-rain .content {
+    position: absolute;
+    top: 114px;
+    left: 290px;
+}
+
+.chance-rain li:nth-child(2) {
+    color: #009BBE;
+}
+
+.uv-index img {
+    height: 30px;
+    position: absolute;
+    top: 212px;
+    left: 289px;
+}
+
+.uv-index .content {
+    position: absolute;
+    top: 209px;
+    left: 290px;
+}
+
+.uv-index li:nth-child(2) {
+    color: #FF9900;
+}
+
+.weather-symbol img {
+    height: 197px;
+    position: absolute;
+    top: 62px;
+    left: 544px;
+}
+
+.four-day {
+    height: 322px;
+    width: 530px;
+    background-color: #202B3B;
+    border-radius: 20px;
+    position: absolute;
+    right: 2.5em;
+    bottom: 3.5em;
+    color: white;
+}
+
+.weather-days {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 5em;
+}
+
+.four-day ul {
+    text-align: center;
+}
+
+.four-day img {
+    height: 7em;
 }
